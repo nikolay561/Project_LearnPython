@@ -1,0 +1,90 @@
+Requirement already satisfied: setuptools in c:\users\solov\appdata\local\programs\python\python38-32\lib\site-packages (from zc.lockfile->cherrypy->pattern) (51.1.0)
+Building wheels for collected packages: pattern, future, mysqlclient, python-docx, sgmllib3k
+  Building wheel for pattern (setup.py) ... done
+  Created wheel for pattern: filename=Pattern-3.6-py3-none-any.whl size=22332723 sha256=fbbe5ba48344ec07867e2e39f4e5e9ffaa38305b9b4cd72302de5f34c5db1297
+  Stored in directory: c:\users\solov\appdata\local\pip\cache\wheels\ec\ce\8f\bccc2d04f3a25a5a1dd19165b2855ad3203975f25edd5838d6
+  Building wheel for future (setup.py) ... done
+  Created wheel for future: filename=future-0.18.2-py3-none-any.whl size=491059 sha256=babf70a3571218de0f0de7ce92509b8de7d5420db50a97655b675814c4fc659d
+  Stored in directory: c:\users\solov\appdata\local\pip\cache\wheels\8e\70\28\3d6ccd6e315f65f245da085482a2e1c7d14b90b30f239e2cf4
+  Building wheel for mysqlclient (setup.py) ... error
+  ERROR: Command errored out with exit status 1:
+   command: 'c:\users\solov\appdata\local\programs\python\python38-32\python.exe' -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\solov\\AppData\\Local\\Temp\\pip-install-rlpjdbnv\\mysqlclient_66891db6520b499290ec3f5a406b546d\\setup.py'"'"'; __file__='"'"'C:\\Users\\solov\\AppData\\Local\\Temp\\pip-install-rlpjdbnv\\mysqlclient_66891db6520b499290ec3f5a406b546d\\setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d 'C:\Users\solov\AppData\Local\Temp\pip-wheel-c15dhn7i'
+       cwd: C:\Users\solov\AppData\Local\Temp\pip-install-rlpjdbnv\mysqlclient_66891db6520b499290ec3f5a406b546d\
+  Complete output (29 lines):
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build\lib.win32-3.8
+  creating build\lib.win32-3.8\MySQLdb
+  copying MySQLdb\__init__.py -> build\lib.win32-3.8\MySQLdb
+  copying MySQLdb\_exceptions.py -> build\lib.win32-3.8\MySQLdb
+  copying MySQLdb\connections.py -> build\lib.win32-3.8\MySQLdb
+  copying MySQLdb\converters.py -> build\lib.win32-3.8\MySQLdb
+  copying MySQLdb\cursors.py -> build\lib.win32-3.8\MySQLdb
+  copying MySQLdb\release.py -> build\lib.win32-3.8\MySQLdb
+  copying MySQLdb\times.py -> build\lib.win32-3.8\MySQLdb
+  creating build\lib.win32-3.8\MySQLdb\constants
+  copying MySQLdb\constants\__init__.py -> build\lib.win32-3.8\MySQLdb\constants
+  copying MySQLdb\constants\CLIENT.py -> build\lib.win32-3.8\MySQLdb\constants
+  copying MySQLdb\constants\CR.py -> build\lib.win32-3.8\MySQLdb\constants
+  copying MySQLdb\constants\ER.py -> build\lib.win32-3.8\MySQLdb\constants
+  copying MySQLdb\constants\FIELD_TYPE.py -> build\lib.win32-3.8\MySQLdb\constants
+  copying MySQLdb\constants\FLAG.py -> build\lib.win32-3.8\MySQLdb\constants
+  running build_ext
+  building 'MySQLdb._mysql' extension
+  creating build\temp.win32-3.8
+  creating build\temp.win32-3.8\Release
+  creating build\temp.win32-3.8\Release\MySQLdb
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -Dversion_info=(2,0,3,'final',0) -D__version__=2.0.3 "-IC:\Program Files (x86)\MySQL\MySQL Connector C 6.1\include\mariadb" -Ic:\users\solov\appdata\local\programs\python\python38-32\include -Ic:\users\solov\appdata\local\programs\python\python38-32\include "-IC:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\include" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt" /TcMySQLdb/_mysql.c /Fobuild\temp.win32-3.8\Release\MySQLdb/_mysql.obj
+  _mysql.c
+  MySQLdb/_mysql.c(29): fatal error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: mysql.h: No such file or directory,
+  error: command 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX86\\x86\\cl.exe' failed with exit status 2
+  ----------------------------------------
+  ERROR: Failed building wheel for mysqlclient
+  Running setup.py clean for mysqlclient
+  Building wheel for python-docx (setup.py) ... done
+  Created wheel for python-docx: filename=python_docx-0.8.10-py3-none-any.whl size=184489 sha256=2c9a0b6e791bf8511ce66b94c6ea128f7c546bd12d7f71be9edc7b92d2c170a3
+  Stored in directory: c:\users\solov\appdata\local\pip\cache\wheels\97\4c\2e\68066cbf12b9b2e66403da8982aaf4f656d9f5cb5dc3179e82
+  Building wheel for sgmllib3k (setup.py) ... done
+  Created wheel for sgmllib3k: filename=sgmllib3k-1.0.0-py3-none-any.whl size=6065 sha256=94f77ccb17194000a0e59e31eaaa573c03150038ddcbbbbe45fe5fe160b4b977
+  Stored in directory: c:\users\solov\appdata\local\pip\cache\wheels\83\63\2f\117884c3b19d46b64d3d61690333aa80c88dc14050e269c546
+Successfully built pattern future python-docx sgmllib3k
+Failed to build mysqlclient
+Installing collected packages: more-itertools, jaraco.functools, tempora, jaraco.text, jaraco.classes, zc.lockfile, urllib3, soupsieve, sortedcontainers, sgmllib3k, pywin32, portend, lxml, jaraco.collections, idna, cheroot, chardet, requests, python-docx, pdfminer.six, mysqlclient, future, feedparser, cherrypy, beautifulsoup4, backports.csv, pattern
+    Running setup.py install for mysqlclient ... error
+    ERROR: Command errored out with exit status 1:
+     command: 'c:\users\solov\appdata\local\programs\python\python38-32\python.exe' -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\solov\\AppData\\Local\\Temp\\pip-install-rlpjdbnv\\mysqlclient_66891db6520b499290ec3f5a406b546d\\setup.py'"'"'; __file__='"'"'C:\\Users\\solov\\AppData\\Local\\Temp\\pip-install-rlpjdbnv\\mysqlclient_66891db6520b499290ec3f5a406b546d\\setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\solov\AppData\Local\Temp\pip-record-wnlbxnj2\install-record.txt' --single-version-externally-managed --compile --install-headers 'c:\users\solov\appdata\local\programs\python\python38-32\Include\mysqlclient'
+         cwd: C:\Users\solov\AppData\Local\Temp\pip-install-rlpjdbnv\mysqlclient_66891db6520b499290ec3f5a406b546d\
+    Complete output (29 lines):
+    running install
+    running build
+    running build_py
+    creating build
+    creating build\lib.win32-3.8
+    creating build\lib.win32-3.8\MySQLdb
+    copying MySQLdb\__init__.py -> build\lib.win32-3.8\MySQLdb
+    copying MySQLdb\_exceptions.py -> build\lib.win32-3.8\MySQLdb
+    copying MySQLdb\connections.py -> build\lib.win32-3.8\MySQLdb
+    copying MySQLdb\converters.py -> build\lib.win32-3.8\MySQLdb
+    copying MySQLdb\cursors.py -> build\lib.win32-3.8\MySQLdb
+    copying MySQLdb\release.py -> build\lib.win32-3.8\MySQLdb
+    copying MySQLdb\times.py -> build\lib.win32-3.8\MySQLdb
+    creating build\lib.win32-3.8\MySQLdb\constants
+    copying MySQLdb\constants\__init__.py -> build\lib.win32-3.8\MySQLdb\constants
+    copying MySQLdb\constants\CLIENT.py -> build\lib.win32-3.8\MySQLdb\constants
+    copying MySQLdb\constants\CR.py -> build\lib.win32-3.8\MySQLdb\constants
+    copying MySQLdb\constants\ER.py -> build\lib.win32-3.8\MySQLdb\constants
+    copying MySQLdb\constants\FIELD_TYPE.py -> build\lib.win32-3.8\MySQLdb\constants
+    copying MySQLdb\constants\FLAG.py -> build\lib.win32-3.8\MySQLdb\constants
+    running build_ext
+    building 'MySQLdb._mysql' extension
+    creating build\temp.win32-3.8
+    creating build\temp.win32-3.8\Release
+    creating build\temp.win32-3.8\Release\MySQLdb
+    C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -Dversion_info=(2,0,3,'final',0) -D__version__=2.0.3 "-IC:\Program Files (x86)\MySQL\MySQL Connector C 6.1\include\mariadb" -Ic:\users\solov\appdata\local\programs\python\python38-32\include -Ic:\users\solov\appdata\local\programs\python\python38-32\include "-IC:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\include" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt" /TcMySQLdb/_mysql.c /Fobuild\temp.win32-3.8\Release\MySQLdb/_mysql.obj
+    _mysql.c
+    MySQLdb/_mysql.c(29): fatal error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: mysql.h: No such file or directory,
+    error: command 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX86\\x86\\cl.exe' failed with exit status 2
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: 'c:\users\solov\appdata\local\programs\python\python38-32\python.exe' -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\solov\\AppData\\Local\\Temp\\pip-install-rlpjdbnv\\mysqlclient_66891db6520b499290ec3f5a406b546d\\setup.py'"'"'; __file__='"'"'C:\\Users\\solov\\AppData\\Local\\Temp\\pip-install-rlpjdbnv\\mysqlclient_66891db6520b499290ec3f5a406b546d\\setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\solov\AppData\Local\Temp\pip-record-wnlbxnj2\install-record.txt' --single-version-externally-managed --compile --install-headers 'c:\users\solov\appdata\local\programs\python\python38-32\Include\mysqlclient' Check the logs for full command output.
